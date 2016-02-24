@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Controller2D.cs">
+    <Files>
+      <File FileName="Assets\Player.cs" Line="76" Column="44" />
+      <File FileName="Assets\RaycastController.cs" Line="51" Column="32" />
+      <File FileName="Assets\PlatformController.cs" Line="16" Column="26" />
+      <File FileName="Assets\Controller2D.cs" Line="7" Column="29" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <RunToCursorBreakpoint file="C:\Users\David Chavarria\Documents\Proyects\Little Thief\Unity Proyect\Little Thief\Assets\Player.cs" line="16" column="30" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
