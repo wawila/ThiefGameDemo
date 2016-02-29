@@ -9,14 +9,16 @@ public class Controller2D : RaycastController {
 	public CollisionInfo collisions;
 	[HideInInspector]
 	public Vector2 playerInput;
+
+	public Animator animator;
 	
 	public override void Start() {
 		base.Start ();
 		collisions.faceDir = 1;
 
 	}
-	
-	public void Move(Vector3 velocity, bool standingOnPlatform) {
+
+	public void Move(Vector3 velocity, bool standingOnPlatform){
 		Move (velocity, Vector2.zero, standingOnPlatform);
 	}
 
@@ -27,8 +29,11 @@ public class Controller2D : RaycastController {
 		playerInput = input;
 
 		if (velocity.x != 0) {
-			collisions.faceDir = (int)Mathf.Sign(velocity.x);
+			print ("Entro en el if");
+			print (velocity.x);
+			collisions.faceDir = (int)Mathf.Sign (velocity.x);
 		}
+
 
 		if (velocity.y < 0) {
 			DescendSlope(ref velocity);
@@ -44,6 +49,17 @@ public class Controller2D : RaycastController {
 		if (standingOnPlatform) {
 			collisions.below = true;
 		}
+
+
+		transform.localScale = new Vector3(collisions.faceDir, 1, 1);
+
+		if (collisions.below && !collisions.left && !collisions.right && input.x != 0)
+			animator.SetBool ("Run", true);
+		else
+			animator.SetBool ("Run", false);
+
+
+
 	}
 
 	void HorizontalCollisions(ref Vector3 velocity) {
@@ -193,8 +209,10 @@ public class Controller2D : RaycastController {
 	void ResetFallingThroughPlatform() {
 		collisions.fallingThroughPlatform = false;
 	}
+		
 
-	public struct CollisionInfo {
+	[System.Serializable]
+	public class CollisionInfo {
 		public bool above, below;
 		public bool left, right;
 

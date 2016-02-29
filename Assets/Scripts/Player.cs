@@ -29,6 +29,8 @@ public class Player : MonoBehaviour {
 
 	Controller2D controller;
 
+
+
 	void Start() {
 		controller = GetComponent<Controller2D> ();
 
@@ -40,6 +42,7 @@ public class Player : MonoBehaviour {
 
 	void Update() {
 		Vector2 input = new Vector2 (Input.GetAxisRaw ("Horizontal"), Input.GetAxisRaw ("Vertical"));
+
 		int wallDirX = (controller.collisions.left) ? -1 : 1;
 
 		float targetVelocityX = input.x * moveSpeed;
@@ -101,7 +104,6 @@ public class Player : MonoBehaviour {
 
 		if (controller.collisions.above || controller.collisions.below) {
 			velocity.y = 0;
-		}
-
+		}			
 	}
 }

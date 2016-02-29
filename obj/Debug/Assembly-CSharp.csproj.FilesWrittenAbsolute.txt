@@ -1,0 +1,17 @@
+/Users/DavidChavarria/Documents/Proyects/Little Thief/ThiefGameDemo/obj/Debug/Assembly-CSharp.dll
+/Users/DavidChavarria/Documents/Proyects/Little Thief/ThiefGameDemo/Temp/bin/Debug/UnityEngine.dll
+/Users/DavidChavarria/Documents/Proyects/Little Thief/ThiefGameDemo/Temp/bin/Debug/UnityEditor.dll
+/Users/DavidChavarria/Documents/Proyects/Little Thief/ThiefGameDemo/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/DavidChavarria/Documents/Proyects/Little Thief/ThiefGameDemo/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/DavidChavarria/Documents/Proyects/Little Thief/ThiefGameDemo/Temp/bin/Debug/Mono.Cecil.dll
+/Users/DavidChavarria/Documents/Proyects/Little Thief/ThiefGameDemo/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/DavidChavarria/Documents/Proyects/Little Thief/ThiefGameDemo/Temp/bin/Debug/Unity.DataContract.dll
+/Users/DavidChavarria/Documents/Proyects/Little Thief/ThiefGameDemo/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/DavidChavarria/Documents/Proyects/Little Thief/ThiefGameDemo/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/DavidChavarria/Documents/Proyects/Little Thief/ThiefGameDemo/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/DavidChavarria/Documents/Proyects/Little Thief/ThiefGameDemo/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/DavidChavarria/Documents/Proyects/Little Thief/ThiefGameDemo/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/DavidChavarria/Documents/Proyects/Little Thief/ThiefGameDemo/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/DavidChavarria/Documents/Proyects/Little Thief/ThiefGameDemo/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/DavidChavarria/Documents/Proyects/Little Thief/ThiefGameDemo/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/DavidChavarria/Documents/Proyects/Little Thief/ThiefGameDemo/obj/Debug/Assembly-CSharp.dll.mdb
