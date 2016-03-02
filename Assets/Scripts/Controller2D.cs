@@ -35,11 +35,13 @@ public class Controller2D : RaycastController {
 
 		if (velocity.y < 0) {
 			DescendSlope(ref velocity);
+            animator.SetBool("Ascending", false);
 		}
 
 		HorizontalCollisions (ref velocity);
 		if (velocity.y != 0) {
 			VerticalCollisions (ref velocity);
+            animator.SetBool("Ascending", true);
 		}
 
 		transform.Translate (velocity);
@@ -62,10 +64,15 @@ public class Controller2D : RaycastController {
 		else
 			animator.SetBool ("Crouch", false);
 
-		if (collisions.below || collisions.left || collisions.right)
+		if (collisions.below)
 			animator.SetBool ("InGround", true);
 		else
 			animator.SetBool ("InGround", false);
+
+        if (!collisions.below && (collisions.left || collisions.right))
+            animator.SetBool("WallSticking", true);
+        else
+            animator.SetBool("WallSticking", false);
 
 	}
 

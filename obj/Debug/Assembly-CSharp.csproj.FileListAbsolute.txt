@@ -19,3 +19,24 @@ C:\Users\David Chavarria\Documents\Proyects\Little Thief\Unity Proyect\Little Th
 C:\Users\David Chavarria\Documents\Proyects\Little Thief\Unity Proyect\Little Thief\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\David Chavarria\Documents\Proyects\Little Thief\Unity Proyect\Little Thief\obj\Debug\Assembly-CSharp.dll
 C:\Users\David Chavarria\Documents\Proyects\Little Thief\Unity Proyect\Little Thief\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Javier\Documents\ThiefGameDemo\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Javier\Documents\ThiefGameDemo\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Javier\Documents\ThiefGameDemo\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Javier\Documents\ThiefGameDemo\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Javier\Documents\ThiefGameDemo\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\Javier\Documents\ThiefGameDemo\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Javier\Documents\ThiefGameDemo\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Javier\Documents\ThiefGameDemo\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\Javier\Documents\ThiefGameDemo\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Javier\Documents\ThiefGameDemo\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Javier\Documents\ThiefGameDemo\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\Javier\Documents\ThiefGameDemo\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\Javier\Documents\ThiefGameDemo\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\Javier\Documents\ThiefGameDemo\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\Javier\Documents\ThiefGameDemo\Temp\bin\Debug\UnityEngine.xml
+C:\Users\Javier\Documents\ThiefGameDemo\Temp\bin\Debug\UnityEditor.xml
+C:\Users\Javier\Documents\ThiefGameDemo\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\Javier\Documents\ThiefGameDemo\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\Javier\Documents\ThiefGameDemo\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Documents\ThiefGameDemo\obj\Debug\Assembly-CSharp.dll
+C:\Users\Javier\Documents\ThiefGameDemo\obj\Debug\Assembly-CSharp.pdb

@@ -4,14 +4,18 @@ using System.Collections;
 
 
 [RequireComponent (typeof (Controller2D))]
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour
+{
+
+    public Transform firePoint;
+    public GameObject knife;
 
 	public float maxJumpHeight = 4;
 	public float minJumpHeight = 1;
 	public float timeToJumpApex = .4f;
 	float accelerationTimeAirborne = .2f;
 	float accelerationTimeGrounded = .1f;
-	float moveSpeed = 6;
+	float moveSpeed = 5;
 
 	public Vector2 wallJumpClimb;
 	public Vector2 wallJumpOff;
@@ -97,6 +101,10 @@ public class Player : MonoBehaviour {
 				velocity.y = minJumpVelocity;
 			}
 		}
+	    if (Input.GetKeyDown(KeyCode.R))
+	    {
+	        Instantiate(knife, firePoint.position, firePoint.rotation);
+	    }
 
 	
 		velocity.y += gravity * Time.deltaTime;
