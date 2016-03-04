@@ -69,9 +69,9 @@ public class Controller2D : RaycastController {
 		else
 			animator.SetBool ("InGround", false);
 
-        if (!collisions.below && (collisions.left || collisions.right))
-            animator.SetBool("WallSticking", true);
-        else
+	    if (!collisions.below && (collisions.left || collisions.right))
+	        animator.SetBool("WallSticking", true);
+	    else
             animator.SetBool("WallSticking", false);
 
 	}

@@ -33,7 +33,7 @@ public class Player : MonoBehaviour
 
 	Controller2D controller;
 
-
+    public int facingSide = 1;
 
 	void Start() {
 		controller = GetComponent<Controller2D> ();
@@ -103,12 +103,26 @@ public class Player : MonoBehaviour
 		}
 	    if (Input.GetKeyDown(KeyCode.R))
 	    {
-	        Instantiate(knife, firePoint.position, firePoint.rotation);
+	        Vector3 knifesource = firePoint.position;
+            bool wallSticking = controller.animator.GetBool("WallSticking");
+	        if (wallSticking)
+	        {
+                if (this.controller.collisions.faceDir < 0)
+                    knifesource.Set((float) (knifesource.x + 0.5), knifesource.y, knifesource.z);
+                else if(this.controller.collisions.faceDir > 0)
+                    knifesource.Set((float) (knifesource.x - 0.5), knifesource.y, knifesource.z);
+	        }
+	        Instantiate(knife, knifesource, firePoint.rotation);
 	    }
 
 	
 		velocity.y += gravity * Time.deltaTime;
 		controller.Move (velocity * Time.deltaTime, input);
+
+	    if (velocity.x > 0)
+	        facingSide = 1;
+	    else if (facingSide < 1)
+	        facingSide = -1;
 
 		if (controller.collisions.above || controller.collisions.below) {
 			velocity.y = 0;
