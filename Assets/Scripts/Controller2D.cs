@@ -35,13 +35,11 @@ public class Controller2D : RaycastController {
 
 		if (velocity.y < 0) {
 			DescendSlope(ref velocity);
-            animator.SetBool("Ascending", false);
 		}
 
 		HorizontalCollisions (ref velocity);
 		if (velocity.y != 0) {
 			VerticalCollisions (ref velocity);
-            animator.SetBool("Ascending", true);
 		}
 
 		transform.Translate (velocity);

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: fb8b206d25e08174a9968287b08cd45e
-timeCreated: 1456913207
+guid: 0d5aaf9d8706b0f43a8708cc47217e5a
+timeCreated: 1457085409
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -80,19 +80,17 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 10, y: 30}
-        - {x: -6, y: 30}
+      - - {x: -6, y: 30}
         - {x: -11, y: 27}
         - {x: -22, y: 9}
         - {x: -22, y: -40}
         - {x: -21, y: -46}
-        - {x: 21, y: -46}
-        - {x: 24, y: -41}
-        - {x: 32, y: -22}
-        - {x: 32, y: -13}
+        - {x: 32, y: -46}
+        - {x: 32, y: -3}
+        - {x: 11, y: 30}
     - name: thief spritesheet_1
       rect:
         serializedVersion: 2
@@ -101,7 +99,7 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 4, y: 28}
@@ -121,7 +119,7 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -9, y: 26}
@@ -139,7 +137,7 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 4, y: 28}
@@ -159,7 +157,7 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 24, y: 24}
@@ -178,7 +176,7 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 9, y: 26}
@@ -204,7 +202,7 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 36, y: -3}
@@ -230,7 +228,7 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 2, y: 26}
@@ -251,7 +249,7 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 4, y: 22}
@@ -269,7 +267,7 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 28, y: -40}
@@ -293,7 +291,7 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 10, y: 28}
@@ -321,7 +319,7 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 10, y: 28}
@@ -331,8 +329,8 @@ TextureImporter:
         - {x: -31, y: -29}
         - {x: -15, y: -31}
         - {x: -5, y: -31}
-        - {x: 4, y: -32}
-        - {x: 32, y: -32}
+        - {x: 3, y: -32}
+        - {x: 33, y: -32}
         - {x: 38, y: -30}
         - {x: 38, y: 16}
         - {x: 29, y: 28}
@@ -349,7 +347,7 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 42, y: 9}
@@ -372,7 +370,7 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 0, y: 8}
@@ -391,7 +389,7 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -8, y: 6}
@@ -408,7 +406,7 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -2, y: 24}
@@ -425,7 +423,7 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -1, y: 24}
@@ -452,7 +450,7 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -4, y: 28}
@@ -472,16 +470,19 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -12, y: 34}
-        - {x: -26, y: 10}
-        - {x: -26, y: -23}
-        - {x: -4, y: -40}
+      - - {x: -4, y: 34}
+        - {x: -26, y: 4}
+        - {x: -26, y: -12}
+        - {x: -25, y: -17}
+        - {x: -19, y: -19}
+        - {x: -3, y: -39}
+        - {x: -2, y: -40}
         - {x: 22, y: -40}
-        - {x: 22, y: 28}
-        - {x: 9, y: 34}
+        - {x: 22, y: 26}
+        - {x: 1, y: 34}
     - name: thief spritesheet_19
       rect:
         serializedVersion: 2
@@ -490,17 +491,16 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -14, y: 30}
-        - {x: -26, y: 18}
+      - - {x: -16, y: 30}
+        - {x: -26, y: 10}
         - {x: -26, y: -4}
-        - {x: -20, y: -25}
-        - {x: -6, y: -40}
+        - {x: -4, y: -40}
         - {x: 22, y: -40}
-        - {x: 22, y: 27}
-        - {x: 7, y: 30}
+        - {x: 22, y: 28}
+        - {x: 15, y: 30}
     - name: thief spritesheet_20
       rect:
         serializedVersion: 2
@@ -509,16 +509,17 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -12, y: 30}
-        - {x: -16, y: 24}
-        - {x: -16, y: -2}
-        - {x: -4, y: -43}
-        - {x: 0, y: -44}
-        - {x: 24, y: -44}
-        - {x: 24, y: 30}
+      - - {x: 12, y: 30}
+        - {x: -16, y: 30}
+        - {x: -16, y: -14}
+        - {x: 1, y: -44}
+        - {x: 23, y: -44}
+        - {x: 24, y: -42}
+        - {x: 24, y: 1}
+        - {x: 23, y: 25}
     - name: thief spritesheet_21
       rect:
         serializedVersion: 2
@@ -527,7 +528,7 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -5, y: 28}
