@@ -80,7 +80,7 @@ public class Player : MonoBehaviour
 			}
 		}
 
-        if (Input.GetKeyDown(KeyCode.R) && armAnimator.GetCurrentAnimatorStateInfo(0).IsName("Standby"))
+        if (Input.GetKeyDown(KeyCode.R) && armAnimator.GetBool("AllowAttacking"))
         {
             RestoreArmPosition();
             UndoArmRendererFlip();
