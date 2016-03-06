@@ -29,8 +29,6 @@ public class Controller2D : RaycastController {
 		playerInput = input;
 
 		if (velocity.x != 0) {
-			print ("Entro en el if");
-			print (velocity.x);
 			collisions.faceDir = (int)Mathf.Sign (velocity.x);
 		}
 
@@ -50,6 +48,7 @@ public class Controller2D : RaycastController {
 			collisions.below = true;
 		}
 
+		// ANIMATION CONTROLLER
 
 		transform.localScale = new Vector3(collisions.faceDir, 1, 1);
 
@@ -58,7 +57,20 @@ public class Controller2D : RaycastController {
 		else
 			animator.SetBool ("Run", false);
 
+		if ((Input.GetKey (KeyCode.DownArrow) || Input.GetKey (KeyCode.S)) && input.x == 0 && collisions.below)
+			animator.SetBool ("Crouch", true);
+		else
+			animator.SetBool ("Crouch", false);
 
+		if (collisions.below)
+			animator.SetBool ("InGround", true);
+		else
+			animator.SetBool ("InGround", false);
+
+	    if (!collisions.below && (collisions.left || collisions.right))
+	        animator.SetBool("WallSticking", true);
+	    else
+            animator.SetBool("WallSticking", false);
 
 	}
 
