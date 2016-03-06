@@ -18,7 +18,7 @@ public class ThrowKnife : MonoBehaviour {
         controller = (Controller2D) player.GetComponent(typeof (Controller2D));
         faceDir = controller.collisions.faceDir;
         bool wallSticking = controller.animator.GetBool("WallSticking");
-        var renderer = (SpriteRenderer)this.GetComponentInParent(typeof(SpriteRenderer));
+        var renderer = (SpriteRenderer)GetComponentInParent(typeof(SpriteRenderer));
 
         if (faceDir < 0)
         {
