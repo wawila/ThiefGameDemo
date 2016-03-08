@@ -1,28 +1,28 @@
 fileFormatVersion: 2
-guid: e3c986e204dc2e044af5820754b78385
-timeCreated: 1457432610
+guid: d8f1ffbc2f24c174ab0e413331bd74c7
+timeCreated: 1457464794
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: armless thief spritesheet 2_0
-    21300002: armless thief spritesheet 2_1
-    21300004: armless thief spritesheet 2_2
-    21300006: armless thief spritesheet 2_3
-    21300008: armless thief spritesheet 2_4
-    21300010: armless thief spritesheet 2_5
-    21300012: armless thief spritesheet 2_6
-    21300014: armless thief spritesheet 2_7
-    21300016: armless thief spritesheet 2_8
-    21300018: armless thief spritesheet 2_9
-    21300020: armless thief spritesheet 2_10
-    21300022: armless thief spritesheet 2_11
-    21300024: armless thief spritesheet 2_12
-    21300026: armless thief spritesheet 2_13
-    21300028: armless thief spritesheet 2_14
-    21300030: armless thief spritesheet 2_15
-    21300032: armless thief spritesheet 2_16
-    21300034: armless thief spritesheet 2_17
-    21300036: armless thief spritesheet 2_18
+    21300000: armless thief spritesheet 1_0
+    21300002: armless thief spritesheet 1_1
+    21300004: armless thief spritesheet 1_2
+    21300006: armless thief spritesheet 1_3
+    21300008: armless thief spritesheet 1_4
+    21300010: armless thief spritesheet 1_5
+    21300012: armless thief spritesheet 1_6
+    21300014: armless thief spritesheet 1_7
+    21300016: armless thief spritesheet 1_8
+    21300018: armless thief spritesheet 1_9
+    21300020: armless thief spritesheet 1_10
+    21300022: armless thief spritesheet 1_11
+    21300024: armless thief spritesheet 1_12
+    21300026: armless thief spritesheet 1_13
+    21300028: armless thief spritesheet 1_14
+    21300030: armless thief spritesheet 1_15
+    21300032: armless thief spritesheet 1_16
+    21300034: armless thief spritesheet 1_17
+    21300036: armless thief spritesheet 1_18
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -69,7 +69,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: armless thief spritesheet 2_0
+    - name: armless thief spritesheet 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -80,13 +80,11 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -18, y: 7}
-        - {x: -18, y: -44}
-        - {x: -16, y: -46}
-        - {x: 21, y: -46}
-        - {x: 22, y: -44}
-        - {x: 22, y: 26}
-        - {x: 4, y: 26}
+      - - {x: -11, y: 26}
+        - {x: -18, y: 11}
+        - {x: -18, y: -46}
+        - {x: 24, y: -46}
+        - {x: 24, y: 26}
       - - {x: -38, y: -4}
         - {x: -33, y: -4}
         - {x: -32, y: -3}
@@ -94,7 +92,7 @@ TextureImporter:
         - {x: -33, y: 2}
         - {x: -36, y: 2}
         - {x: -38, y: 1}
-    - name: armless thief spritesheet 2_1
+    - name: armless thief spritesheet 1_1
       rect:
         serializedVersion: 2
         x: 0
@@ -113,7 +111,7 @@ TextureImporter:
         - {x: 24, y: -46}
         - {x: 26, y: -21}
         - {x: 26, y: 23}
-    - name: armless thief spritesheet 2_2
+    - name: armless thief spritesheet 1_2
       rect:
         serializedVersion: 2
         x: 100
@@ -139,7 +137,7 @@ TextureImporter:
         - {x: 5, y: -36}
         - {x: 6, y: -35}
         - {x: 6, y: -30}
-    - name: armless thief spritesheet 2_3
+    - name: armless thief spritesheet 1_3
       rect:
         serializedVersion: 2
         x: 200
@@ -163,7 +161,7 @@ TextureImporter:
         - {x: 33, y: -20}
         - {x: 17, y: -19}
         - {x: 29, y: -10}
-    - name: armless thief spritesheet 2_4
+    - name: armless thief spritesheet 1_4
       rect:
         serializedVersion: 2
         x: 300
@@ -182,7 +180,7 @@ TextureImporter:
         - {x: 34, y: -31}
         - {x: 34, y: 21}
         - {x: 24, y: 26}
-    - name: armless thief spritesheet 2_5
+    - name: armless thief spritesheet 1_5
       rect:
         serializedVersion: 2
         x: 400
@@ -200,7 +198,7 @@ TextureImporter:
         - {x: 28, y: -17}
         - {x: 28, y: 5}
         - {x: 23, y: 22}
-    - name: armless thief spritesheet 2_6
+    - name: armless thief spritesheet 1_6
       rect:
         serializedVersion: 2
         x: 500
@@ -224,7 +222,7 @@ TextureImporter:
         - {x: 3, y: -45}
         - {x: 1, y: -39}
         - {x: 11, y: -41}
-    - name: armless thief spritesheet 2_7
+    - name: armless thief spritesheet 1_7
       rect:
         serializedVersion: 2
         x: 600
@@ -252,7 +250,7 @@ TextureImporter:
         - {x: -25, y: -2}
         - {x: -24, y: 0}
         - {x: -24, y: 3}
-    - name: armless thief spritesheet 2_8
+    - name: armless thief spritesheet 1_8
       rect:
         serializedVersion: 2
         x: 700
@@ -275,7 +273,7 @@ TextureImporter:
         - {x: -37, y: 20}
         - {x: -32, y: 20}
         - {x: -32, y: 26}
-    - name: armless thief spritesheet 2_9
+    - name: armless thief spritesheet 1_9
       rect:
         serializedVersion: 2
         x: 800
@@ -294,7 +292,7 @@ TextureImporter:
         - {x: 26, y: -46}
         - {x: 32, y: -23}
         - {x: 32, y: 26}
-    - name: armless thief spritesheet 2_10
+    - name: armless thief spritesheet 1_10
       rect:
         serializedVersion: 2
         x: 0
@@ -313,7 +311,7 @@ TextureImporter:
         - {x: 14, y: -46}
         - {x: 22, y: -32}
         - {x: 22, y: 8}
-    - name: armless thief spritesheet 2_11
+    - name: armless thief spritesheet 1_11
       rect:
         serializedVersion: 2
         x: 100
@@ -330,7 +328,7 @@ TextureImporter:
         - {x: 14, y: -46}
         - {x: 24, y: -30}
         - {x: 24, y: 6}
-    - name: armless thief spritesheet 2_12
+    - name: armless thief spritesheet 1_12
       rect:
         serializedVersion: 2
         x: 0
@@ -347,7 +345,7 @@ TextureImporter:
         - {x: -12, y: -46}
         - {x: 22, y: -46}
         - {x: 22, y: 24}
-    - name: armless thief spritesheet 2_13
+    - name: armless thief spritesheet 1_13
       rect:
         serializedVersion: 2
         x: 100
@@ -374,7 +372,7 @@ TextureImporter:
         - {x: 22, y: -26}
         - {x: 22, y: 18}
         - {x: 19, y: 24}
-    - name: armless thief spritesheet 2_14
+    - name: armless thief spritesheet 1_14
       rect:
         serializedVersion: 2
         x: 200
@@ -394,7 +392,7 @@ TextureImporter:
         - {x: 22, y: -21}
         - {x: 22, y: 22}
         - {x: 20, y: 28}
-    - name: armless thief spritesheet 2_15
+    - name: armless thief spritesheet 1_15
       rect:
         serializedVersion: 2
         x: 300
@@ -412,7 +410,7 @@ TextureImporter:
         - {x: 22, y: -40}
         - {x: 22, y: 28}
         - {x: 9, y: 34}
-    - name: armless thief spritesheet 2_16
+    - name: armless thief spritesheet 1_16
       rect:
         serializedVersion: 2
         x: 400
@@ -431,7 +429,7 @@ TextureImporter:
         - {x: 22, y: -40}
         - {x: 22, y: 27}
         - {x: 7, y: 30}
-    - name: armless thief spritesheet 2_17
+    - name: armless thief spritesheet 1_17
       rect:
         serializedVersion: 2
         x: 500
@@ -449,7 +447,7 @@ TextureImporter:
         - {x: 0, y: -44}
         - {x: 24, y: -44}
         - {x: 24, y: 30}
-    - name: armless thief spritesheet 2_18
+    - name: armless thief spritesheet 1_18
       rect:
         serializedVersion: 2
         x: 0
