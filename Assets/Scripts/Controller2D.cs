@@ -10,9 +10,14 @@ public class Controller2D : RaycastController {
 	[HideInInspector]
 	public Vector2 playerInput;
 
+    
+
 	public Animator animator;
+    private Animator armAnimator;
+    public GameObject arm;
 	
 	public override void Start() {
+        armAnimator = (Animator)arm.GetComponent(typeof(Animator));
 		base.Start ();
 		collisions.faceDir = 1;
 
@@ -61,6 +66,12 @@ public class Controller2D : RaycastController {
 			animator.SetBool ("Crouch", true);
 		else
 			animator.SetBool ("Crouch", false);
+
+        if (Input.GetKeyUp(KeyCode.DownArrow))
+            armAnimator.CrossFade("Standby", 0f);
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
+            armAnimator.CrossFade("Standby", 0f);
+
 
 		if (collisions.below)
 			animator.SetBool ("InGround", true);
