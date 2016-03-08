@@ -83,6 +83,8 @@ public class Controller2D : RaycastController {
 	    else
             animator.SetBool("WallSticking", false);
 
+
+
 	}
 
 	void HorizontalCollisions(ref Vector3 velocity) {
