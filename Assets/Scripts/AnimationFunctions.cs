@@ -24,4 +24,14 @@ public class AnimationFunctions : MonoBehaviour
     {
         myAnimator.SetBool(boolName, true);
     }
+
+
+    private void setAllowAttackingTrue()
+    {
+        myAnimator.SetBool("AllowAttacking", true);
+    }
+    private void SetAllowAttackingInTime(float time)
+    {
+        Invoke("setAllowAttackingTrue", time);
+    }
 }
